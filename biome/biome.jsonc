@@ -1,0 +1,23 @@
+{
+	"$schema": "../node_modules/@biomejs/biome/configuration_schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"javascript": {
+		"formatter": {
+			"semicolons": "asNeeded"
+		}
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"style": {
+				"useConst": "off"
+			},
+			"complexity": {
+				"useArrowFunction": "off"
+			}
+		}
+	}
+}
