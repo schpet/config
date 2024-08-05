@@ -12,5 +12,8 @@
 	},
 	"exports": {
 		"./biome": "./biome/biome.jsonc"
-	}
+	},
+  "files": [
+    "biome"
+  ]
 }
