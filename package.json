@@ -1,11 +1,14 @@
 {
 	"name": "@schpet/config",
-	"version": "0.0.3",
-	"description": "",
+	"version": "0.0.4",
+	"description": "Configuration tools including .editorconfig generator",
 	"license": "ISC",
 	"type": "module",
 	"publishConfig": {
 		"access": "public"
+	},
+	"bin": {
+		"@schpet/config": "./bin/editorconfig.js"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.8.0"
@@ -14,6 +17,7 @@
 		"./biome": "./biome/biome.jsonc"
 	},
 	"files": [
-		"biome"
+		"biome",
+		"bin"
 	]
 }
