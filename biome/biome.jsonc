@@ -29,5 +29,9 @@
 		"enabled": true,
 		"clientKind": "git",
 		"useIgnoreFile": true
+	},
+	"files": {
+		// let pnpm etc change the package.json without needing it formatted
+		"ignore": ["package.json"]
 	}
 }
