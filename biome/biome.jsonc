@@ -11,7 +11,8 @@
 		"rules": {
 			"recommended": true,
 			"style": {
-				"useConst": "off"
+				"useConst": "off",
+				"noUnusedTemplateLiteral": "off"
 			},
 			"complexity": {
 				"useArrowFunction": "off"
@@ -20,7 +21,13 @@
 	},
 	"javascript": {
 		"formatter": {
-			"semicolons": "asNeeded"
+			"semicolons": "asNeeded",
+			"lineWidth": 100
 		}
+	},
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"useIgnoreFile": true
 	}
 }

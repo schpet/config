@@ -1,15 +1,16 @@
 {
-	"name": "@schpet/config",
-	"version": "0.0.1",
-	"description": "",
-	"license": "ISC",
-	"publishConfig": {
-		"access": "public"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "^1.8.0"
-	},
-	"exports": {
-		"./biome": "./biome/biome.jsonc"
-	}
+  "name": "@schpet/config",
+  "version": "0.0.1",
+  "description": "",
+  "license": "ISC",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.0"
+  },
+  "exports": {
+    "./biome": "./biome/biome.jsonc"
+  }
 }
