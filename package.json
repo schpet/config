@@ -13,7 +13,7 @@
 	"exports": {
 		"./biome": "./biome/biome.jsonc"
 	},
-  "files": [
-    "biome"
-  ]
+	"files": [
+		"biome"
+	]
 }
