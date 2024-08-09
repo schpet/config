@@ -7,9 +7,6 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"bin": {
-		"@schpet/config": "./bin/editorconfig.js"
-	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.8.0"
 	},
