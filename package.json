@@ -18,6 +18,7 @@
 	},
 	"files": [
 		"biome",
-		"bin"
+		"bin",
+    ".editorconfig"
 	]
 }
