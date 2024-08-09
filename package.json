@@ -1,6 +1,6 @@
 {
 	"name": "@schpet/config",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"description": "Configuration tools including .editorconfig generator",
 	"license": "ISC",
 	"type": "module",
